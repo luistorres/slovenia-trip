@@ -12,14 +12,14 @@ document.querySelectorAll('#daynav button').forEach(btn => {
 // ====== TRIP DATA — every stop from the final plan ======
 const TRIP = [
   // Day 1
-  { day: 1, time: '12:00', name: 'Ljubljana Airport (LJU)', lat: 46.2286, lng: 14.4542, notes: 'Pick up rental car. On the road by 13:00.', mapsUrl: 'https://maps.google.com/?cid=2649348081297224101' },
-  { day: 1, time: '14:00', name: 'Predjama Castle', lat: 45.8158, lng: 14.1269, notes: 'Castle in a cliff cave. ~1h with audio tour.', mapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJXSrK02gle0cRgayVIdFnl9g' },
-  { day: 1, time: '16:00', name: 'Škocjan Caves', lat: 45.6631, lng: 13.9892, notes: 'Take the 16:00 tour. 12°C inside — bring a layer.', mapsUrl: 'https://maps.google.com/?cid=15611690651589705717' },
-  { day: 1, time: '19:30', name: 'Piran (overnight)', lat: 45.5274, lng: 13.5716, notes: 'Park at Garage Fornače. Dinner at Fritolin pri Cantini.', mapsUrl: 'https://maps.google.com/?cid=11351832186093721264' },
+  { day: 1, time: '13:15', name: 'Ljubljana Airport (LJU)', lat: 46.2286, lng: 14.4542, notes: 'Land 13:15. Pick up rental car, on the road by ~14:00.', mapsUrl: 'https://maps.google.com/?cid=2649348081297224101' },
+  { day: 1, time: '14:50', name: 'Predjama Castle', lat: 45.8158, lng: 14.1269, notes: 'Castle in a cliff cave. ~1h with audio tour. Open till ~19:00 in June.', mapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJXSrK02gle0cRgayVIdFnl9g' },
+  { day: 1, time: '17:00', name: 'Piran (overnight)', lat: 45.5274, lng: 13.5716, notes: 'Park at Garage Fornače. Drop bags and settle in.', mapsUrl: 'https://maps.google.com/?cid=11351832186093721264' },
+  { day: 1, time: '18:30', name: 'Piran walls + old town', lat: 45.5274, lng: 13.5716, notes: '€3 walls at golden hour. Tartini Square, bell tower. Dinner at Fritolin pri Cantini.', mapsUrl: 'https://maps.google.com/?cid=11351832186093721264' },
 
   // Day 2
-  { day: 2, time: '09:00', name: 'Piran walls + old town', lat: 45.5274, lng: 13.5716, notes: '€3 walls. Tartini Square, bell tower. ~2hrs.', mapsUrl: 'https://maps.google.com/?cid=11351832186093721264' },
-  { day: 2, time: '11:45', name: 'Muggia (lunch)', lat: 45.6025, lng: 13.7664, notes: 'Italian fishing village. Bring ID for border.', mapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJYxZpz5Rpe0cRiS2QcwLAmlY' },
+  { day: 2, time: '10:00', name: 'Škocjan Caves', lat: 45.6631, lng: 13.9892, notes: 'Booked 10:00 tour. ~2hrs, 12°C inside — bring a layer. No photos.', mapsUrl: 'https://maps.google.com/?cid=15611690651589705717' },
+  { day: 2, time: '13:00', name: 'Muggia (lunch)', lat: 45.6025, lng: 13.7664, notes: 'Italian fishing village. Bring ID for border.', mapsUrl: 'https://www.google.com/maps/place/?q=place_id:ChIJYxZpz5Rpe0cRiS2QcwLAmlY' },
   { day: 2, time: '14:30', name: 'Trieste — Piazza Unità', lat: 45.6501, lng: 13.7678, notes: 'Park at Saba Trieste Centrale. Walk Unity Square + Canal Grande.', mapsUrl: 'https://maps.google.com/?cid=493976732731572632' },
   { day: 2, time: '16:30', name: 'Miramare Castle', lat: 45.7025, lng: 13.7124, notes: 'Closes 18:30. €12 castle / gardens free. Last entry ~17:30.', mapsUrl: 'https://maps.google.com/?cid=6181852107812349808' },
   { day: 2, time: '18:45', name: 'Mesečev Zaliv (Moon Bay)', lat: 45.5375, lng: 13.6099, notes: 'Park at Strunjan church, 15min walk. Sunset at flysch cliffs.', mapsUrl: 'https://maps.google.com/?cid=17951649208889620390' },
