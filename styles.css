@@ -156,12 +156,6 @@ section.forecast { margin-top: 52px; padding-top: 32px; border-top: 2px solid va
 section.forecast > .ref-eyebrow { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-muted); margin-bottom: 4px; }
 section.forecast > h2 { font-family: 'Fraunces', serif; font-style: italic; font-weight: 400; font-size: 32px; line-height: 1; margin-bottom: 22px; font-variation-settings: "opsz" 144, "SOFT" 100; color: var(--terra); }
 
-.wx-meta { background: var(--bg-card); border: 1px solid var(--rule); border-radius: 4px; padding: 16px 18px; margin-bottom: 20px; }
-.wx-meta-row { display: grid; grid-template-columns: 110px 1fr; gap: 14px; padding: 6px 0; }
-.wx-meta-row:not(:last-child) { border-bottom: 1px dotted var(--rule); }
-.wx-meta-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-muted); padding-top: 2px; }
-.wx-meta-val { font-size: 13.5px; color: var(--ink-soft); line-height: 1.5; }
-
 .wx-overview { font-style: italic; color: var(--ink-soft); font-size: 15px; margin-bottom: 28px; padding: 0 4px; }
 .wx-overview strong { font-style: normal; color: var(--ink); font-weight: 600; }
 
